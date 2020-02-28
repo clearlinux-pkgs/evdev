@@ -4,7 +4,7 @@
 #
 Name     : evdev
 Version  : 1.3.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/89/83/5f5635fd0d91a08ac355dd9ca9bde34bfa6b29a5c59f703ad83d1ad0bf34/evdev-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/89/83/5f5635fd0d91a08ac355dd9ca9bde34bfa6b29a5c59f703ad83d1ad0bf34/evdev-1.3.0.tar.gz
 Summary  : Bindings to the Linux input handling subsystem
@@ -18,10 +18,28 @@ BuildRequires : buildreq-distutils3
 %description
 *evdev*
 -------
+
 This package provides bindings to the generic input event interface in
 Linux. The *evdev* interface serves the purpose of passing events
 generated in the kernel directly to userspace through character
 devices that are typically located in ``/dev/input/``.
+
+This package also comes with bindings to *uinput*, the userspace input
+subsystem. *Uinput* allows userspace programs to create and handle
+input devices that can inject events directly into the input
+subsystem.
+
+Documentation:
+    http://python-evdev.readthedocs.io/en/latest/
+
+Development:
+    https://github.com/gvalkov/python-evdev
+
+Package:
+    http://pypi.python.org/pypi/evdev
+
+Changelog:
+    http://python-evdev.readthedocs.io/en/latest/changelog.html
 
 %package license
 Summary: license components for the evdev package.
@@ -44,6 +62,7 @@ python components for the evdev package.
 Summary: python3 components for the evdev package.
 Group: Default
 Requires: python3-core
+Provides: pypi(evdev)
 
 %description python3
 python3 components for the evdev package.
@@ -58,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578929184
+export SOURCE_DATE_EPOCH=1582921958
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
