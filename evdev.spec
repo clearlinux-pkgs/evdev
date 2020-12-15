@@ -4,7 +4,7 @@
 #
 Name     : evdev
 Version  : 1.3.0
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/89/83/5f5635fd0d91a08ac355dd9ca9bde34bfa6b29a5c59f703ad83d1ad0bf34/evdev-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/89/83/5f5635fd0d91a08ac355dd9ca9bde34bfa6b29a5c59f703ad83d1ad0bf34/evdev-1.3.0.tar.gz
 Summary  : Bindings to the Linux input handling subsystem
