@@ -4,7 +4,7 @@
 #
 Name     : evdev
 Version  : 1.4.0
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/4d/ec/bb298d36ed67abd94293253e3e52bdf16732153b887bf08b8d6f269eacef/evdev-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4d/ec/bb298d36ed67abd94293253e3e52bdf16732153b887bf08b8d6f269eacef/evdev-1.4.0.tar.gz
 Summary  : Bindings to the Linux input handling subsystem
