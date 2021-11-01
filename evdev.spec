@@ -4,7 +4,7 @@
 #
 Name     : evdev
 Version  : 1.4.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/4d/ec/bb298d36ed67abd94293253e3e52bdf16732153b887bf08b8d6f269eacef/evdev-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4d/ec/bb298d36ed67abd94293253e3e52bdf16732153b887bf08b8d6f269eacef/evdev-1.4.0.tar.gz
 Summary  : Bindings to the Linux input handling subsystem
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1610995184
+export SOURCE_DATE_EPOCH=1635726516
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
